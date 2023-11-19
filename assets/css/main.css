@@ -1,0 +1,79 @@
+#component {
+	background-color: #F2F2F7;
+	font-family: 'Inter', sans-serif;
+}
+
+header {
+	padding-bottom: 50px;
+}
+
+.badge {
+	background-color: #FFFFFF;
+	color: #000000 !important;
+	font-weight: 600;
+}
+
+.badge-group .badge {
+	padding-left: 12px !important;
+	padding-right: 12px !important;
+}
+
+.badge#active {
+	background-color: #5856D6;
+	color: #FFFFFF !important;
+}
+
+.badge#rouble {
+	background: linear-gradient(#5856D6, #D000A2);
+	color: #FFFFFF !important;
+	top: -10px;
+	font-size: 10px;
+	font-weight: 600 !important;
+}
+
+.badge#action {
+	background-color: #CE0C0C;
+	color: #FFFFFF !important;
+	top: -10px;
+	right: 0px;
+	font-size: 10px;
+	font-weight: 600 !important;
+}
+
+.card {
+	background-color: #F2F2F7 !important;
+	border: none !important;
+	font-family: 'Inter', sans-serif !important;
+}
+
+.card-img-top {
+	width: 139px !important;
+	height: 135px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+.card-body {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.card-text {
+	color: #000000 !important;
+	font-weight: 400;
+	font-size: 12px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 36px;
+}
+
+.btn-buy {
+	background-color: #5856D6 !important;
+	color: #FFFFFF !important;
+	font-weight: 600 !important;
+	font-size: 14px !important;
+	height: 34px;
+}
