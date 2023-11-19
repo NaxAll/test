@@ -1,16 +1,29 @@
-#component {
-	background-color: #F2F2F7;
+body {
+	background-color: #F2F2F7 !important;
 	font-family: 'Inter', sans-serif;
+	padding: 0.75rem;
 }
 
 header {
 	padding-bottom: 50px;
 }
 
+#console {
+	font-size: 26px !important;
+}
+
+.icons {
+	right: 20px;
+}
+
 .badge {
 	background-color: #FFFFFF;
 	color: #000000 !important;
 	font-weight: 600;
+}
+
+.badge-group {
+	overflow-x: scroll;
 }
 
 .badge-group .badge {
@@ -61,7 +74,7 @@ header {
 
 .card-text {
 	color: #000000 !important;
-	font-weight: 400;
+	font-weight: normal;
 	font-size: 12px;
     -webkit-line-clamp: 2;
     display: -webkit-box;
